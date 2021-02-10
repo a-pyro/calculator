@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  background-color: #394053;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  width: 75px;
+  height: 35px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  background-color: #87a0b2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  box-shadow: inset 0px 2px 5px;
+  color: #fff;
+}
+
+#result {
+  width: 100%;
+  padding: 0.9rem;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background-color: #fff;
+  text-align: right;
+}
+
+.function-button {
+  background-color: rgb(218, 220, 224);
+}
+
+span[value='='] {
+  background-color: #ffc478;
+}
