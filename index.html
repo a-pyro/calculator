@@ -23,9 +23,43 @@
     /> -->
 
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>CalcME</title>
   </head>
   <body>
+    <div class="container">
+      <main id="calculator">
+        <section>
+          <input type="text" value="0" id="result" />
+        </section>
+
+        <!-- numeric buttons -->
+        <section class="first-row">
+          <span class="numeric-button" value="7">7</span>
+          <span class="numeric-button" value="8">8</span>
+          <span class="numeric-button" value="9">9</span>
+          <span class="function-button" value="/">/</span>
+        </section>
+        <section class="second-row">
+          <span class="numeric-button" value="4">4</span>
+          <span class="numeric-button" value="5">5</span>
+          <span class="numeric-button" value="6">6</span>
+          <span class="function-button" value="x">x</span>
+        </section>
+        <section class="third-row">
+          <span class="numeric-button" value="1">1</span>
+          <span class="numeric-button" value="2">2</span>
+          <span class="numeric-button" value="3">3</span>
+          <span class="function-button" value="-">-</span>
+        </section>
+        <section class="fourth-row">
+          <span class="numeric-button" value="0">0</span>
+          <span class="numeric-button" value=".">.</span>
+          <span class="function-button" value="=">=</span>
+          <span class="function-button" value="+">+</span>
+        </section>
+      </main>
+    </div>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
