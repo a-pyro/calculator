@@ -35,7 +35,7 @@ body {
 }
 
 .btn:active {
-  box-shadow: inset 0px 2px 5px;
+  /* box-shadow: inset 0px 2px 5px; */
   color: #fff;
 }
 
